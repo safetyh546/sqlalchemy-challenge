@@ -1,13 +1,13 @@
 # sqlalchemy-challenge
 
 # Key files included in this repository
-/Resources/hawaiisqllite --> sqllite database used in analysis<br />
+Resources\hawaii.sqlite --> sqllite database used in analysis<br />
 climate_analysis.ipynb --> juypter notebook with climate analysis<br />
 app.py --> python file with flask app<br />
 
 
 # Step 1 - Climate Analysis and Exploration
-use Python and SQLAlchemy to do basic climate analysis and data exploration hawaiisqllite database<br />
+use Python and SQLAlchemy to do basic climate analysis and data exploration of the hawaiisqllite database<br />
 All the analysis completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.<br />
 
 ## Precipiation Analysis

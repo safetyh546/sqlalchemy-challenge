@@ -80,7 +80,7 @@ def stations():
     session = Session(engine)
 
     # Return list of all stations 
-    StationList = session.query(station.station,station.name).all()
+    StationList = session.query(measurement.station, station.name).join(station, measurement.station == station.station).order_by(measurement.station).distinct().all()
 
     session.close()
     return jsonify(StationList)
